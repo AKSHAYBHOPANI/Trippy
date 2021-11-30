@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trippy</title>
+	<meta name="description" content="">
+	<link rel="canonical" href="">
+	<link rel="icon" sizes="57x57" href="">
+	<link rel="icon" type="image/png" href="http://www.google.com/s2/u/0/favicons?domain=developers.google.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+<body>
+	<header class="header">
+  <i class="far fa-user"></i>
+  <i class="fas fa-search"></i>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="#work">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#careers">News</a></li>
+    <li><a href="#contact">Albums</a></li>
+  </ul>
+</header>
+<div class="screen" id="bg">
+<div class="text">
+<h1>Press Any Key On Keyboard <i class="far fa-keyboard"></i> and Turn Up Your Volume <i class="fas fa-volume-up"></i></h1>
+<p id="info"></p>
+</div>
+</div>
+<audio id="music" controls hidden>
+  <source src="music.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<!-- Script -->
+<script type="text/javascript" src="./script.js"></script>
+
+</body>
+</html>
